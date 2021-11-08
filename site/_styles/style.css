@@ -1,0 +1,20 @@
+@charset "utf8";
+/*IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab&display=swap');
+/*  
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Roboto Slab', serif;
+*/
+
+/*VARIÁVEIS*/
+:root{
+    --font-principal: 'Cormorant Garamond', serif;
+    --font-text: 'Roboto Slab', serif;
+}
+
+/*CONF GERAIS*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
