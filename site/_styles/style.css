@@ -9,8 +9,21 @@
 
 /*VARIÁVEIS*/
 :root{
+    /*fonts*/
     --font-principal: 'Cormorant Garamond', serif;
     --font-text: 'Roboto Slab', serif;
+
+    /*colors*/
+    --primary: #ffc069;
+    --primary-light: #fff399;
+    --primary-dark: #c9903b;
+
+    --secondary: #a35c5c;
+    --secondary-light: #d68a89;
+    --secondary-dark: #723033;
+
+    --color-text-primary: #000;
+    --color-text-secondary: #fff;
 }
 
 /*CONF GERAIS*/
@@ -18,3 +31,66 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    font-family: var(--font-text);
+}
+
+main, header{
+    background-color: #ffc069;
+    max-width: 1000px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*HEADER*/
+header{
+    margin-top: 21px;
+    text-align: right;
+    height: 250px;
+    background: url('../_imagens/topo-imagem-principal.png') no-repeat top left var(--primary-dark);
+
+}
+div#background-header{
+    background-color: var(--primary-dark);
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    text-align: left;
+}
+nav{ 
+   
+}
+
+nav > ul{  
+    margin: 13px;
+    font: normal 1em var(--font-principal);
+}
+
+nav > ul >  li{
+    margin-bottom: 8px;
+}
+
+nav a{
+    color: var(--color-text-primary);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*MAIN*/
+main{
+    height: 500px;
+    margin-top: 13px;
+    
+    
+}
+/*FOOTER*/
