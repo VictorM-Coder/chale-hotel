@@ -80,9 +80,10 @@ div.lateral{
 
 ul#lista-menu-principal{
     list-style: none;  
-    margin: 13px;
-    font: bold 1.5em var(--font-principal);
+    margin: 8px 0px;
+    font: bold 1.2em var(--font-principal);
     color: var(--color-text-primary);
+    display: inline-block;
 }
 
 ul#lista-menu-principal > li{
@@ -103,7 +104,10 @@ ul#lista-menu-principal a:hover{
 p#localidade{
     text-align: justify;
     font-size: 0.8em;
-    margin: 13px;
+    margin: 13px 0px;
+}
+#logo{
+    display: inline-block;
 }
 
 /*MAIN*/
