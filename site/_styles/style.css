@@ -42,22 +42,33 @@ main, header{
     margin: auto;
 }
 
+header, nav{
+    border-radius: 3px;
+}
+
+article, aside{
+    max-width: 540px;
+    display: inline-block;
+}
+
 /*HEADER*/
 header{
     margin-top: 21px;
     height: 250px;
     background: url('../_imagens/topo-imagem-principal.png') no-repeat top left var(--primary-dark);
 
+    box-shadow: 0px 3px 8px  rgba(0, 0, 0, 0.199);
 }
+
 div#background-header{
-    width: 402px;
+    width: 410px;
     height: 250px;
     float: right;
 }
 
 nav{
     background-color: var(--primary);
-    width: 302px;
+    width: 310px;
     height: 250px;
     float: right;
 }
@@ -98,23 +109,33 @@ ul#lista-menu-principal a{
 
 ul#lista-menu-principal a:hover{
     text-decoration: underline;
+    color: var(--secondary-dark);
 }
 
 
 p#localidade{
-    text-align: justify;
-    font-size: 0.8em;
+    text-align: center;
+    color: var(--secondary-dark);
+    font-size: 0.7em;
     margin: 13px 0px;
+    border-top: 1px solid var(--secondary-dark);
+    border-bottom: 1px solid var(--secondary-dark);
+    display: inline-block;
+    width: 302px;
+
+    padding: 3px 0px;
+ 
 }
 #logo{
-    display: inline-block;
+    margin: 13px;
 }
 
 /*MAIN*/
 main{
-    height: 500px;
     margin-top: 13px;
-    
-    
+}
+
+aside{
+    float: right;
 }
 /*FOOTER*/
