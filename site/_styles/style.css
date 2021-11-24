@@ -38,12 +38,11 @@ body{
 }
 
 main, header, footer{
-    background-color: #ffc069;
     max-width: 1100px;
     margin: auto;
 }
 
-header, nav{
+header, nav, main, article, aside{
     border-radius: 3px;
 }
 
@@ -54,6 +53,7 @@ article, aside{
 
 /*HEADER*/
 header{
+    background-color: #ffc069;
     margin-top: 21px;
     height: 250px;
     background: url('../_imagens/topo-imagem-principal.png') no-repeat top left var(--primary-dark);
@@ -144,16 +144,51 @@ h2{
 }
 
 h2.dark-title{
-    color: var(--secondary);
+    color: var(--secondary-dark);
+    font-size: 1.5em;
 }
 
 aside, article{
     padding: 13px;
 }
 
+a.lateral-menu-link{
+    text-decoration: none;
+    color: var(--color-text-primary);
+}
+
+article p{
+    text-align: justify;
+    margin-top: 13px;
+}
+
 aside{
     float: right;
     background-color: var(--primary);
+    height: 400px;
+}
+
+div.artigo-extra{
+    border-bottom: solid 1px var(--secondary-dark);
+    padding: 8px;
+    text-align: justify;
+}
+
+div.artigo-extra:hover{
+    background-color: var(--primary-light);
+}
+
+img.lateral-image{
+    width: 150px;
+    float: left;
+    margin-right: 8px;
+}
+div.description{
+    background: url('../_imagens/ornamento.png') no-repeat top right;
+}
+div.description p{
+    font-size: 0.8em;
+    
 }
 /*FOOTER*/
 footer{
@@ -164,4 +199,5 @@ footer{
 
 footer > p{
     font-style: italic;
+    text-align: left;
 }
